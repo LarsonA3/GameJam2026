@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8680047355630617205}
   - component: {fileID: 5413800900258207370}
   - component: {fileID: 7925268359819886453}
+  - component: {fileID: 3710181813188329601}
   - component: {fileID: 2209828227220113033}
   - component: {fileID: 1029877097284948520}
   - component: {fileID: 4035521464417478307}
@@ -93,6 +94,21 @@ MonoBehaviour:
   CinemachineCameraTarget: {fileID: 5934953628842447632}
   TopClamp: 89
   BottomClamp: -89
+--- !u!114 &3710181813188329601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361381561182967332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f54147d7b0a6c4398d459545f32f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
+  interactDistance: 2.5
+  eDefault: {fileID: 1087508721, guid: d1a3a65a0b4551b48b9bec22cf4bc315, type: 3}
+  ePressed: {fileID: -395019505, guid: 159f18212299ea743a04d0e12c3aa988, type: 3}
 --- !u!114 &2209828227220113033
 MonoBehaviour:
   m_ObjectHideFlags: 0
