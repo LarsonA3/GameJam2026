@@ -1125,6 +1125,97 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1418379414
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1418379416}
+  - component: {fileID: 1418379415}
+  m_Layer: 0
+  m_Name: poster2_0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &1418379415
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418379414}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -1801095950, guid: a86a48356ab6a6244a29b859445957c7, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 5, y: 7.5}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1418379416
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418379414}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.039950736, y: 0.99920166, z: -0, w: 0}
+  m_LocalPosition: {x: 1.86, y: 2.9, z: -8.989}
+  m_LocalScale: {x: 0.36498436, y: 0.36140952, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -4.579}
 --- !u!1 &1519271778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2361381561182967332, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
@@ -1240,7 +1331,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_035b0929-232f-4656-943a-a04615767b9b
+    name: UM_OperatedMesh_d5854fb2-aa00-47f3-97a3-b11b7e8b5117
     skinnedMesh: 0
     sharedMesh: {fileID: 944411137}
     buidVersion:
@@ -1253,7 +1344,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 035b0929-232f-4656-943a-a04615767b9b
+  sourceMeshRendererGUID: d5854fb2-aa00-47f3-97a3-b11b7e8b5117
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -1387,7 +1478,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3b9b6bb1-0c1c-4bef-bfef-6d4450573da9
+    name: UM_OperatedMesh_c8ace9f6-df86-40eb-93ab-64170f4843f7
     skinnedMesh: 0
     sharedMesh: {fileID: 2022839179}
     buidVersion:
@@ -1400,7 +1491,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3b9b6bb1-0c1c-4bef-bfef-6d4450573da9
+  sourceMeshRendererGUID: c8ace9f6-df86-40eb-93ab-64170f4843f7
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -1534,7 +1625,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_20fa14d2-eddd-4b9a-99f9-3cf58f827ee8
+    name: UM_OperatedMesh_c4158ccf-f917-4165-8322-65f0bf7a15eb
     skinnedMesh: 0
     sharedMesh: {fileID: 1394054587}
     buidVersion:
@@ -1547,7 +1638,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 20fa14d2-eddd-4b9a-99f9-3cf58f827ee8
+  sourceMeshRendererGUID: c4158ccf-f917-4165-8322-65f0bf7a15eb
   guid: d5d10283-7732-4d73-bf33-2c7770c99b4e
   localOptions:
     RecalculateTangents: 0
@@ -1859,7 +1950,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_fb9043b0-87ac-4a37-b9f9-fab7d1214948
+    name: UM_OperatedMesh_5a501ae9-442f-4126-aa0e-317a739d855b
     skinnedMesh: 0
     sharedMesh: {fileID: 839739268}
     buidVersion:
@@ -1872,7 +1963,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: fb9043b0-87ac-4a37-b9f9-fab7d1214948
+  sourceMeshRendererGUID: 5a501ae9-442f-4126-aa0e-317a739d855b
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -2430,3 +2521,4 @@ SceneRoots:
   - {fileID: 1563951332}
   - {fileID: 1554075431}
   - {fileID: 698897024}
+  - {fileID: 1418379416}
