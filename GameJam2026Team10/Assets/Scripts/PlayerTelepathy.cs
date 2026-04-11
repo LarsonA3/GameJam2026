@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 namespace StarterAssets
 {
@@ -10,6 +11,15 @@ namespace StarterAssets
         public float moveSpeed = 15f;
         public float throwForce = 10f;
         public float throwGravityDelay = 0.2f;
+
+        [Header("Stamina")]
+        public float maxStamina = 100f;
+        public float drainRate = 15f;
+        public float rechargeRate = 8f;
+        public Slider staminaSlider;
+
+        private float stamina;
+        private bool exhausted;
 
         private Rigidbody heldObject;
         private float grabHoldDistance;
@@ -31,10 +41,14 @@ namespace StarterAssets
         private void Start()
         {
             cam = Camera.main;
+            stamina = maxStamina;
+            staminaSlider.maxValue = maxStamina;
         }
 
         private void Update()
         {
+            UpdateStamina();
+
             if (gravityTimer > 0f)
             {
                 gravityTimer -= Time.deltaTime;
@@ -53,7 +67,7 @@ namespace StarterAssets
 
             if (GetLMB())
             {
-                if (heldObject == null)
+                if (heldObject == null && stamina > 0f && !exhausted)
                     TryGrab();
             }
             else
@@ -61,6 +75,29 @@ namespace StarterAssets
                 if (heldObject != null)
                     DropObject();
             }
+        }
+
+        private void UpdateStamina()
+        {
+            if (heldObject != null)
+            {
+                stamina -= drainRate * Time.deltaTime;
+                if (stamina <= 0f)
+                {
+                    stamina = 0f;
+                    exhausted = true;
+                    DropObject();
+                }
+            }
+            else
+            {
+                stamina = Mathf.Min(stamina + rechargeRate * Time.deltaTime, maxStamina);
+                if (exhausted && stamina >= maxStamina * 0.25f)
+                    exhausted = false;
+            }
+
+            if (staminaSlider != null)
+                staminaSlider.value = stamina;
         }
 
         private void FixedUpdate()
