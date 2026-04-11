@@ -43,5 +43,8 @@ public class Health : MonoBehaviour
     private void Die()
     {
         PlayerDeath.instance.Die();
+        currentHealth = maxHealth;
+        if (healthSlider != null)
+            healthSlider.value = currentHealth;
     }
 }
