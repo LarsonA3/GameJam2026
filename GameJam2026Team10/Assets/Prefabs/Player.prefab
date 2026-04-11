@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 4035521464417478307}
   - component: {fileID: 75517296199849195}
   - component: {fileID: 243949441931347858}
+  - component: {fileID: 812169887218418889}
   m_Layer: 8
   m_Name: PlayerCapsule
   m_TagString: Player
@@ -279,6 +280,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Health
   maxHealth: 100
   healthSlider: {fileID: 0}
+--- !u!114 &812169887218418889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2361381561182967332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca167a0c8b535b446a3398c49f998685, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDeath
 --- !u!1 &2667930403455617516
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +494,7 @@ Transform:
   m_GameObject: {fileID: 4709937000409765644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.8, z: 0}
+  m_LocalPosition: {x: 4.85, y: 1.8000002, z: -1.58985}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
