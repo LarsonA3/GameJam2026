@@ -22,7 +22,12 @@ public class Robot : MonoBehaviour
 
     private void Update()
     {
-        transform.position += transform.forward * moveSpeed * Time.deltaTime;
+        if (player != null)
+        {
+            Vector3 dir = (player.position - transform.position).normalized;
+            transform.position += dir * moveSpeed * Time.deltaTime;
+            transform.rotation = Quaternion.LookRotation(dir);
+        }
 
         fireTimer -= Time.deltaTime;
         if (fireTimer <= 0f)
