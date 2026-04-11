@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2532134310867796300}
   - component: {fileID: 6974557615628200576}
   - component: {fileID: 7316410987083935771}
-  - component: {fileID: 8016446224088679324}
   m_Layer: 0
   m_Name: MovableDoor
   m_TagString: PushableObject
@@ -59,7 +58,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d644fcb1-c6bf-442d-bb75-ceeb1e53f1eb
+    name: UM_OperatedMesh_4a8b0010-33aa-40ba-b84e-f58caa161a1b
     skinnedMesh: 0
     sharedMesh: {fileID: 7514085085101423724}
     buidVersion:
@@ -72,7 +71,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d644fcb1-c6bf-442d-bb75-ceeb1e53f1eb
+  sourceMeshRendererGUID: 4a8b0010-33aa-40ba-b84e-f58caa161a1b
   guid: 095e2ae0-96e7-4306-9d90-1d0c927644f9
   localOptions:
     RecalculateTangents: 0
@@ -176,7 +175,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!65 &6974557615628200576
 BoxCollider:
@@ -238,18 +237,6 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &8016446224088679324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4632574221411469839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 379f90d6ef9e10849a04eec405f126d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DoorDebug
 --- !u!114 &5780264450732747578
 MonoBehaviour:
   m_ObjectHideFlags: 0
