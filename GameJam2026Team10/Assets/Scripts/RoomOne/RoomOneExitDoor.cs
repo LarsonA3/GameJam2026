@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RoomOneExitDoor : MonoBehaviour
 {
@@ -23,6 +24,8 @@ public class RoomOneExitDoor : MonoBehaviour
             //play sound effect
             //play animation of door opening
             //load next scene
+
+            SceneManager.LoadScene("RoomTwo");
         }
 
     }
