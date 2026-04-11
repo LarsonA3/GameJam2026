@@ -8,18 +8,24 @@ namespace StarterAssets
         [Header("Grab Settings")]
         public float grabRange = 5f;
         public float moveSpeed = 15f;
+        public float throwForce = 10f;
+        public float throwGravityDelay = 0.2f;
 
         private Rigidbody heldObject;
         private float grabHoldDistance;
         private bool wasGravity;
+        private Rigidbody thrownObject;
+        private float gravityTimer;
 
         private Camera cam;
         private InputSystem_Actions input;
+        private PlayerInput playerInput;
 
         private void Awake()
         {
             input = new InputSystem_Actions();
             input.Enable();
+            playerInput = GetComponent<PlayerInput>();
         }
 
         private void Start()
@@ -29,6 +35,22 @@ namespace StarterAssets
 
         private void Update()
         {
+            if (gravityTimer > 0f)
+            {
+                gravityTimer -= Time.deltaTime;
+                if (gravityTimer <= 0f && thrownObject != null)
+                {
+                    thrownObject.useGravity = true;
+                    thrownObject = null;
+                }
+            }
+
+            if (GetRMB() && heldObject != null)
+            {
+                ThrowObject();
+                return;
+            }
+
             if (GetLMB())
             {
                 if (heldObject == null)
@@ -57,11 +79,18 @@ namespace StarterAssets
                 Rigidbody rb = hit.collider.GetComponent<Rigidbody>();
                 if (rb == null) return;
 
+                if (rb == thrownObject)
+                {
+                    gravityTimer = 0f;
+                    thrownObject = null;
+                }
+
                 heldObject       = rb;
                 grabHoldDistance = Vector3.Distance(cam.transform.position, rb.position);
-                wasGravity       = rb.useGravity;
+                wasGravity       = true;
 
                 rb.useGravity = false;
+                playerInput.actions["Jump"].Disable();
             }
         }
 
@@ -77,11 +106,27 @@ namespace StarterAssets
         {
             heldObject.useGravity = wasGravity;
             heldObject = null;
+            playerInput.actions["Jump"].Enable();
+        }
+
+        private void ThrowObject()
+        {
+            thrownObject = heldObject;
+            heldObject = null;
+            playerInput.actions["Jump"].Enable();
+
+            thrownObject.linearVelocity = cam.transform.forward * throwForce;
+            gravityTimer = throwGravityDelay;
         }
 
         private bool GetLMB()
         {
             return input.Player.Attack.IsPressed();
+        }
+
+        private bool GetRMB()
+        {
+            return input.Player.Throw.IsPressed();
         }
     }
 }
