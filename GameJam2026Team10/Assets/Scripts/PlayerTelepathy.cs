@@ -16,10 +16,12 @@ namespace StarterAssets
         public float maxStamina = 100f;
         public float drainRate = 15f;
         public float rechargeRate = 8f;
+        public float fastRechargeRate = 20f;
         public Slider staminaSlider;
 
         private float stamina;
         private bool exhausted;
+        private bool isRecharging;
 
         private Rigidbody heldObject;
         private float grabHoldDistance;
@@ -79,6 +81,8 @@ namespace StarterAssets
 
         private void UpdateStamina()
         {
+            bool rHeld = input.Player.Recharge.IsPressed();
+
             if (heldObject != null)
             {
                 stamina -= drainRate * Time.deltaTime;
@@ -91,9 +95,32 @@ namespace StarterAssets
             }
             else
             {
-                stamina = Mathf.Min(stamina + rechargeRate * Time.deltaTime, maxStamina);
+                float rate = rHeld ? fastRechargeRate : rechargeRate;
+                stamina = Mathf.Min(stamina + rate * Time.deltaTime, maxStamina);
                 if (exhausted && stamina >= maxStamina * 0.25f)
                     exhausted = false;
+            }
+
+            if (rHeld && heldObject == null)
+            {
+                if (!isRecharging)
+                {
+                    isRecharging = true;
+                    playerInput.actions["Move"].Disable();
+                    playerInput.actions["Jump"].Disable();
+                    playerInput.actions["Attack"].Disable();
+                }
+            }
+            else
+            {
+                if (isRecharging)
+                {
+                    isRecharging = false;
+                    playerInput.actions["Move"].Enable();
+                    playerInput.actions["Attack"].Enable();
+                    if (heldObject == null)
+                        playerInput.actions["Jump"].Enable();
+                }
             }
 
             if (staminaSlider != null)
