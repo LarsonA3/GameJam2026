@@ -126,7 +126,7 @@ MonoBehaviour:
   pushLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  canPush: 1
+  canPush: 0
   strength: 1.1
 --- !u!114 &1029877097284948520
 MonoBehaviour:
@@ -261,6 +261,7 @@ MonoBehaviour:
   moveSpeed: 15
   throwForce: 10
   throwGravityDelay: 0.2
+  ballPrefab: {fileID: 7372692360249152464, guid: 89fecab0ec9e5b84cba9140a1f771924, type: 3}
   maxStamina: 100
   drainRate: 15
   rechargeRate: 8
@@ -494,7 +495,7 @@ Transform:
   m_GameObject: {fileID: 4709937000409765644}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.85, y: 1.8000002, z: -1.58985}
+  m_LocalPosition: {x: 0, y: 1.8000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

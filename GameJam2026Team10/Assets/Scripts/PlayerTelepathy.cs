@@ -11,6 +11,7 @@ namespace StarterAssets
         public float moveSpeed = 15f;
         public float throwForce = 10f;
         public float throwGravityDelay = 0.2f;
+        public GameObject ballPrefab;
 
         [Header("Stamina")]
         public float maxStamina = 100f;
@@ -44,7 +45,8 @@ namespace StarterAssets
         {
             cam = Camera.main;
             stamina = maxStamina;
-            staminaSlider.maxValue = maxStamina;
+            if (staminaSlider != null)
+                staminaSlider.maxValue = maxStamina;
         }
 
         private void Update()
@@ -65,6 +67,12 @@ namespace StarterAssets
             {
                 ThrowObject();
                 return;
+            }
+
+            if (Interact() && heldObject != null)
+            {
+                if (heldObject.GetComponent<Robot>() != null)
+                    CrushRobot();
             }
 
             if (GetLMB())
@@ -138,7 +146,7 @@ namespace StarterAssets
             Ray ray = cam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
             if (Physics.Raycast(ray, out RaycastHit hit, grabRange))
             {
-                if (!hit.collider.CompareTag("PushableObject")) return;
+                if (!hit.collider.CompareTag("PushableObject") && !hit.collider.CompareTag("Robot")) return;
 
                 Rigidbody rb = hit.collider.GetComponent<Rigidbody>();
                 if (rb == null) return;
@@ -151,15 +159,21 @@ namespace StarterAssets
 
                 heldObject       = rb;
                 grabHoldDistance = Vector3.Distance(cam.transform.position, rb.position);
-                wasGravity       = true;
+                wasGravity       = rb.useGravity;
 
-                rb.useGravity = false;
+                if (!hit.collider.CompareTag("Robot"))
+                {
+                    rb.useGravity = false;
+                }
+
                 playerInput.actions["Jump"].Disable();
             }
         }
 
         private void MoveHeldObject()
         {
+            if (heldObject.CompareTag("Robot")) return;
+
             Vector3 targetPos = cam.transform.position + cam.transform.forward * grabHoldDistance;
             Vector3 direction = targetPos - heldObject.position;
             heldObject.linearVelocity  = direction * moveSpeed;
@@ -171,6 +185,16 @@ namespace StarterAssets
             heldObject.useGravity = wasGravity;
             heldObject = null;
             playerInput.actions["Jump"].Enable();
+        }
+
+        private void CrushRobot()
+        {
+            GameObject robotObj = heldObject.gameObject;
+            Vector3 spawnPos = heldObject.position;
+            DropObject();
+            Destroy(robotObj);
+            if (ballPrefab != null)
+                Instantiate(ballPrefab, spawnPos, Quaternion.identity);
         }
 
         private void ThrowObject()
@@ -191,6 +215,11 @@ namespace StarterAssets
         private bool GetRMB()
         {
             return input.Player.Throw.IsPressed();
+        }
+
+        private bool Interact()
+        {
+           return input.Player.Interact.IsPressed();
         }
     }
 }
