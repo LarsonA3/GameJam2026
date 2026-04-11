@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - PushableObject
+  - Interactable
   layers:
   - Default
   - TransparentFX
