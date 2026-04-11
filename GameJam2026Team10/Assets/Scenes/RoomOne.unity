@@ -119,6 +119,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &698897022
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 698897024}
+  - component: {fileID: 698897023}
+  m_Layer: 0
+  m_Name: 4e5d3a44-5d09-4bba-a0f0-98a9f0f99bee
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &698897023
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698897022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
+  items: []
+--- !u!4 &698897024
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 698897022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &727568836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,6 +828,28 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6011af7e0ebbd6d47aaa28099b86e4b3, type: 3}
+--- !u!114 &1067362770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8887243234677835415, guid: 6011af7e0ebbd6d47aaa28099b86e4b3, type: 3}
+  m_PrefabInstance: {fileID: 1067362769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!114 &1067362771 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2706772950520083770, guid: 6011af7e0ebbd6d47aaa28099b86e4b3, type: 3}
+  m_PrefabInstance: {fileID: 1067362769}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1139034289
 GameObject:
   m_ObjectHideFlags: 3
@@ -1076,21 +1143,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerPushObj
   pushPower: 5
---- !u!114 &1519271793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1519271778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66f54147d7b0a6c4398d459545f32f7d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
-  interactDistance: 2.5
-  eDefault: {fileID: 0}
-  ePressed: {fileID: 0}
 --- !u!1 &1554075427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1188,7 +1240,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_17191e92-6344-4e38-80e6-52a63816f938
+    name: UM_OperatedMesh_035b0929-232f-4656-943a-a04615767b9b
     skinnedMesh: 0
     sharedMesh: {fileID: 944411137}
     buidVersion:
@@ -1201,7 +1253,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 17191e92-6344-4e38-80e6-52a63816f938
+  sourceMeshRendererGUID: 035b0929-232f-4656-943a-a04615767b9b
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -1335,7 +1387,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_7d2799c9-fa29-4329-b29c-3dfc5cdb0ba0
+    name: UM_OperatedMesh_3b9b6bb1-0c1c-4bef-bfef-6d4450573da9
     skinnedMesh: 0
     sharedMesh: {fileID: 2022839179}
     buidVersion:
@@ -1348,7 +1400,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 7d2799c9-fa29-4329-b29c-3dfc5cdb0ba0
+  sourceMeshRendererGUID: 3b9b6bb1-0c1c-4bef-bfef-6d4450573da9
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -1482,7 +1534,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_055d4f10-72d9-4879-ba9e-2ea5182bfa15
+    name: UM_OperatedMesh_20fa14d2-eddd-4b9a-99f9-3cf58f827ee8
     skinnedMesh: 0
     sharedMesh: {fileID: 1394054587}
     buidVersion:
@@ -1495,7 +1547,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 055d4f10-72d9-4879-ba9e-2ea5182bfa15
+  sourceMeshRendererGUID: 20fa14d2-eddd-4b9a-99f9-3cf58f827ee8
   guid: d5d10283-7732-4d73-bf33-2c7770c99b4e
   localOptions:
     RecalculateTangents: 0
@@ -1807,7 +1859,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_498829dd-684c-4bdd-98db-9391b516e8ad
+    name: UM_OperatedMesh_fb9043b0-87ac-4a37-b9f9-fab7d1214948
     skinnedMesh: 0
     sharedMesh: {fileID: 839739268}
     buidVersion:
@@ -1820,7 +1872,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 498829dd-684c-4bdd-98db-9391b516e8ad
+  sourceMeshRendererGUID: fb9043b0-87ac-4a37-b9f9-fab7d1214948
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -2095,6 +2147,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 75517296199849195, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
+      propertyPath: staminaSlider
+      value: 
+      objectReference: {fileID: 1067362771}
+    - target: {fileID: 243949441931347858, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1067362770}
     - target: {fileID: 2232443846679286373, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2196,9 +2256,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2361381561182967332, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
-      insertIndex: 3
-      addedObject: {fileID: 1519271793}
-    - targetCorrespondingSourceObject: {fileID: 2361381561182967332, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1519271785}
   m_SourcePrefab: {fileID: 100100000, guid: d07dad945b5ec92438ecf7e4aea56243, type: 3}
@@ -2253,6 +2310,18 @@ PrefabInstance:
     - target: {fileID: 3647983373185019751, guid: 4f2f93cf241542447b9784311680c97d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218300660331111714, guid: 4f2f93cf241542447b9784311680c97d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.973
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218300660331111714, guid: 4f2f93cf241542447b9784311680c97d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 8218300660331111714, guid: 4f2f93cf241542447b9784311680c97d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.28
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2360,3 +2429,4 @@ SceneRoots:
   - {fileID: 2062272819}
   - {fileID: 1563951332}
   - {fileID: 1554075431}
+  - {fileID: 698897024}

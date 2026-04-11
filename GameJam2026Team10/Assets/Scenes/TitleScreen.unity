@@ -582,6 +582,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &542589046
+GameObject:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 542589048}
+  - component: {fileID: 542589047}
+  m_Layer: 0
+  m_Name: 5d405273-7d0e-442a-92dc-9be00971d289
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &542589047
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542589046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -521311792, guid: 355474d781e5561489e3595e39866770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Tripolygon.UModelerX.Runtime.dll::Tripolygon.UModelerX.Runtime.UModelerXCurveCache
+  items: []
+--- !u!4 &542589048
+Transform:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542589046}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1030516862
 GameObject:
   m_ObjectHideFlags: 3
@@ -933,6 +978,24 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4428747191416128261, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
+      propertyPath: m_text
+      value: 'LMB - Grab items, drop when let go
+
+        RMB - Throw items
+
+        WASD/arrow
+        keys - Movement
+
+        E - interact
+
+        E + LMB - Crush Enemy
+
+        Space
+        - jump
+
+        R - Meditation'
+      objectReference: {fileID: 0}
     - target: {fileID: 4691560910424005125, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1017,6 +1080,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[[ TITLE SCREEN UI CANVAS ]]'
       objectReference: {fileID: 0}
+    - target: {fileID: 8636190472592958752, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.0855374
+      objectReference: {fileID: 0}
+    - target: {fileID: 8636190472592958752, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8667742291385246475, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 130
+      objectReference: {fileID: 0}
     - target: {fileID: 8812784285762017586, guid: c7aa549d74c1f4c44bb364bab3f66055, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1055,3 +1130,4 @@ SceneRoots:
   - {fileID: 518455702}
   - {fileID: 1195745639}
   - {fileID: 1842263368}
+  - {fileID: 542589048}
