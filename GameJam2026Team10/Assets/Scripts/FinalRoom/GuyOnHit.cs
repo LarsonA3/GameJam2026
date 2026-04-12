@@ -3,6 +3,7 @@ using UnityEngine;
 public class GuyOnHit : MonoBehaviour
 {
     private GameObject head;
+    public AudioSource hitSound;
 
     private void Start()
     {
@@ -15,6 +16,7 @@ public class GuyOnHit : MonoBehaviour
             print("player killed guy with block");
             DoorCheck.instance.SetGuyDead();
             head.SetActive(false);
+            hitSound.Play();
         }
     }
 }

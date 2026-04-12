@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 381663261081513970}
   - component: {fileID: 5838160578852066275}
   - component: {fileID: 1026283674876564122}
+  - component: {fileID: 7933470727233593998}
   m_Layer: 0
   m_Name: Robot (3)
   m_TagString: Robot
@@ -304,6 +305,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractablePrompt
   showDistance: 5
+--- !u!82 &7933470727233593998
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185683034616446358}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: ff95a1ba49ddff042b45195a6fc96bfe, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3346219348460111721
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,7 +458,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretGun.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_c8a26200-5c5f-439a-9f11-072b7bcec328
+    name: UM_OperatedMesh_6b066e1e-c343-42bb-aaef-16a571f2ae33
     skinnedMesh: 0
     sharedMesh: {fileID: -4030853700589764244}
     buidVersion:
@@ -373,7 +471,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: c8a26200-5c5f-439a-9f11-072b7bcec328
+  sourceMeshRendererGUID: 6b066e1e-c343-42bb-aaef-16a571f2ae33
   guid: aaa8c2d6-66c0-44d7-ae11-2dd454a4798e
   localOptions:
     RecalculateTangents: 0
@@ -538,7 +636,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_45e79d5b-870f-45d9-b037-f041aa176662
+    name: UM_OperatedMesh_07fa16cf-a078-4c0a-8cf7-c7cc2e724e1d
     skinnedMesh: 0
     sharedMesh: {fileID: 2682980122747698556}
     buidVersion:
@@ -551,7 +649,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 45e79d5b-870f-45d9-b037-f041aa176662
+  sourceMeshRendererGUID: 07fa16cf-a078-4c0a-8cf7-c7cc2e724e1d
   guid: aaa8c2d6-66c0-44d7-ae11-2dd454a4798e
   localOptions:
     RecalculateTangents: 0
