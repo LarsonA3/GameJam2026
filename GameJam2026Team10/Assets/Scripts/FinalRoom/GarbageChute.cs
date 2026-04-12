@@ -3,6 +3,7 @@ using UnityEngine;
 public class GarbageChute : MonoBehaviour
 {
     private bool guyLogged = false;
+    public AudioSource garbageSound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -11,6 +12,7 @@ public class GarbageChute : MonoBehaviour
             if (!guyLogged)
             {
                 print("guy fell into garbage chute");
+                garbageSound.Play();
                 DoorCheck.instance.SetGuyDead();
                 guyLogged = true;
             }
