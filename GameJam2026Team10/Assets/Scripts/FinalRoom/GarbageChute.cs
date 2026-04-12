@@ -4,6 +4,7 @@ public class GarbageChute : MonoBehaviour
 {
     private bool guyLogged = false;
     public AudioSource garbageSound;
+    public AudioSource crunchSound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,6 +14,7 @@ public class GarbageChute : MonoBehaviour
             {
                 print("guy fell into garbage chute");
                 garbageSound.Play();
+                if (crunchSound != null) crunchSound.Play();
                 DoorCheck.instance.SetGuyDead();
                 guyLogged = true;
             }
