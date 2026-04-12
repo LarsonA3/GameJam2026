@@ -14,6 +14,6 @@ public class PlayerDeath : MonoBehaviour
     {
         //do stuff
         print("player death called");
-        SceneManager.LoadScene("RoomOne");
+        SceneManager.LoadScene("YouLose");
     }
 }
