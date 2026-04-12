@@ -1,13 +1,19 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class DoorCheck : MonoBehaviour
 {
     public static DoorCheck instance;
 
+    public Image blackscreen;
+
     private bool isGuyDead = false;
     public AudioSource betrayAudio;
+
+    private bool done = false;
+    public GameObject player;
 
     void Awake()
     {
@@ -38,7 +44,8 @@ public class DoorCheck : MonoBehaviour
         {
             Debug.Log("player entered door when guy is not dead");
             //play betrayal audio   
-            StartCoroutine(PlayBetrayalAudio());
+            if (!done) { StartCoroutine(PlayBetrayalAudio()); }
+            done = true;
         }
     }
 
@@ -61,16 +68,17 @@ public class DoorCheck : MonoBehaviour
             float y = Random.Range(0f, 360f);
             float z = Random.Range(-45f, 45f);
 
-            transform.rotation = Quaternion.Euler(x, y, z);
+            player.transform.rotation = Quaternion.Euler(x, y, z);
 
             elapsed += Time.deltaTime;
             yield return null;
         }
 
         transform.rotation = originalRotation;
+        blackscreen.gameObject.SetActive(true);
 
         betrayAudio.Play();
-        yield return new WaitForSeconds(betrayAudio.clip.length + 3f);
+        yield return new WaitForSeconds(betrayAudio.clip.length + 0.5f);
         PlayerDeath.instance.Die();
     }
 }
