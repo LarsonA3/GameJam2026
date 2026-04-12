@@ -36,6 +36,8 @@ public class PlayButton : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         //bright flash of light and load scene
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         SceneManager.LoadScene("RoomOne");
     }
 }

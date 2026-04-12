@@ -15,5 +15,7 @@ public class PlayerDeath : MonoBehaviour
         //do stuff
         print("player death called");
         SceneManager.LoadScene("YouLose");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
