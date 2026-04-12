@@ -53,12 +53,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4609707953676524ca8dbe489a6ced95, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4a8b0010-33aa-40ba-b84e-f58caa161a1b
+    name: UM_OperatedMesh_4c2f8664-a4d6-4115-8920-197865118c60
     skinnedMesh: 0
     sharedMesh: {fileID: 7514085085101423724}
     buidVersion:
@@ -71,7 +71,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4a8b0010-33aa-40ba-b84e-f58caa161a1b
+  sourceMeshRendererGUID: 4c2f8664-a4d6-4115-8920-197865118c60
   guid: 095e2ae0-96e7-4306-9d90-1d0c927644f9
   localOptions:
     RecalculateTangents: 0
@@ -126,7 +126,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 4609707953676524ca8dbe489a6ced95, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

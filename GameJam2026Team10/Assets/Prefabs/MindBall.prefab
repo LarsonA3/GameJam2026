@@ -52,12 +52,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: c571679436339414a923010852e72c05, type: 2}
+  - {fileID: 2100000, guid: 4a2abd4f67aefc24b9c6cca2d197adc7, type: 2}
   materialsPath:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_08db46af-2d6b-4fad-8cb9-f39f64fa4eb2
+    name: UM_OperatedMesh_291d235d-c5c6-43e3-bdd3-a4dbeffddd59
     skinnedMesh: 0
     sharedMesh: {fileID: -6717332741505881220}
     buidVersion:
@@ -70,7 +70,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 08db46af-2d6b-4fad-8cb9-f39f64fa4eb2
+  sourceMeshRendererGUID: 291d235d-c5c6-43e3-bdd3-a4dbeffddd59
   guid: 85dd9e6f-d160-4399-999c-a2e3886fb4c2
   localOptions:
     RecalculateTangents: 0
@@ -125,7 +125,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c571679436339414a923010852e72c05, type: 2}
+  - {fileID: 2100000, guid: 4a2abd4f67aefc24b9c6cca2d197adc7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
