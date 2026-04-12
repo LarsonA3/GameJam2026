@@ -13,6 +13,7 @@ namespace StarterAssets
         public float throwGravityDelay = 0.2f;
         public GameObject ballPrefab;
         public AudioSource grabLoopAudio;
+        public AudioSource rechargeLoopAudio;
 
         [Header("Stamina")]
         public float maxStamina = 100f;
@@ -53,6 +54,12 @@ namespace StarterAssets
             {
                 grabLoopAudio.loop = true;
                 grabLoopAudio.playOnAwake = false;
+            }
+            if (rechargeLoopAudio != null)
+            {
+                rechargeLoopAudio.loop = true;
+                rechargeLoopAudio.playOnAwake = false;
+                rechargeLoopAudio.Stop();
             }
         }
 
@@ -127,6 +134,8 @@ namespace StarterAssets
                     playerInput.actions["Move"].Disable();
                     playerInput.actions["Jump"].Disable();
                     playerInput.actions["Attack"].Disable();
+                    if (rechargeLoopAudio != null && !rechargeLoopAudio.isPlaying)
+                        rechargeLoopAudio.Play();
                 }
             }
             else
@@ -138,6 +147,8 @@ namespace StarterAssets
                     playerInput.actions["Attack"].Enable();
                     if (heldObject == null)
                         playerInput.actions["Jump"].Enable();
+                    if (rechargeLoopAudio != null && rechargeLoopAudio.isPlaying)
+                        rechargeLoopAudio.Stop();
                 }
             }
 
