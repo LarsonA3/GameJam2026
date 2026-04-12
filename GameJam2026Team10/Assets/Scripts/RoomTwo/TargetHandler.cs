@@ -31,7 +31,9 @@ public class TargetHandler : MonoBehaviour
         }
     }
 
-    private void ResetAll()
+
+
+    public void ResetAll()
     {
         currentStep = 0;
         print("Sequence Reset");
