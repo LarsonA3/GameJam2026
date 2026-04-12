@@ -8,9 +8,5 @@ public class Room3Voicelines : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

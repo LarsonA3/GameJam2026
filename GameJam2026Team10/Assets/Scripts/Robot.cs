@@ -42,6 +42,7 @@ public class Robot : MonoBehaviour
                     shotRotation = Quaternion.LookRotation(dir);
                 }
                 Instantiate(laserPrefab, firePoint.position, shotRotation);
+                this.GetComponent<AudioSource>()?.Play();
             }
         }
     }
