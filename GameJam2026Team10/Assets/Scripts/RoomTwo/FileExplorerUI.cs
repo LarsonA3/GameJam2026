@@ -18,6 +18,10 @@ public class FileExplorerUI : MonoBehaviour
     public string code = "2134";
     public TextMeshProUGUI codeDisplay;
 
+
+    public AudioSource voice;
+    private bool hasPlayedVoice = false;
+
     private static readonly string[] questions =
     {
         "Are you a member of staff?",
@@ -47,6 +51,9 @@ public class FileExplorerUI : MonoBehaviour
         gameObject.SetActive(true);
         dialogStep = 0;
         ShowPanel(explorerPanel);
+
+        if (!hasPlayedVoice) { voice.Play(); }
+        hasPlayedVoice = true;
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
