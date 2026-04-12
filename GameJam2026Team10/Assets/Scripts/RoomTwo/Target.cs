@@ -30,6 +30,7 @@ public class Target : MonoBehaviour
             {
                 if (parentHandler != null)
                 {
+                    this.GetComponent<AudioSource>().Play();
                     parentHandler.Enter(myNumber);
                     lastTriggerTime = Time.time;
                 }

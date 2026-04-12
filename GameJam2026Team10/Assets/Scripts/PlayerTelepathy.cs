@@ -209,6 +209,7 @@ namespace StarterAssets
             Vector3 spawnPos = heldObject.position;
             DropObject();
             Destroy(robotObj);
+            stamina = Mathf.Max(stamina - 20f, 0f);
             if (ballPrefab != null)
                 Instantiate(ballPrefab, spawnPos, Quaternion.identity);
         }
