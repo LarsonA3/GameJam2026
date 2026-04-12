@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using JetBrains.Annotations;
 
 public class DeathScreenHandler : MonoBehaviour
 {
     public GameObject endScreenCanvas;
-
+    public GameObject otherthing;
     void Start()
     {
         if (endScreenCanvas != null)
@@ -23,6 +24,7 @@ public class DeathScreenHandler : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         endScreenCanvas.SetActive(true);
+        otherthing.SetActive(false);
 
         AudioSource screenAudio = endScreenCanvas.GetComponent<AudioSource>();
         if (screenAudio != null)
