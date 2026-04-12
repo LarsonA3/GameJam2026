@@ -277,9 +277,13 @@ MonoBehaviour:
   moveSpeed: 15
   throwForce: 10
   throwGravityDelay: 0.2
+  ballPrefab: {fileID: 0}
+  grabLoopAudio: {fileID: 0}
+  rechargeLoopAudio: {fileID: 0}
   maxStamina: 100
   drainRate: 15
   rechargeRate: 8
+  fastRechargeRate: 20
   staminaSlider: {fileID: 0}
 --- !u!114 &7118750556699742554
 MonoBehaviour:
@@ -490,7 +494,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
+  m_RenderPostProcessing: 1
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
