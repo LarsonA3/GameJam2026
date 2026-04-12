@@ -24,7 +24,8 @@ public class RoomOneExitDoor : MonoBehaviour
             //play sound effect
             //play animation of door opening
             //load next scene
-
+            InputSystem_Actions inputActions = new InputSystem_Actions();
+            inputActions.Disable();  
             SceneManager.LoadScene("RoomTwo");
         }
 
