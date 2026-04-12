@@ -20,7 +20,7 @@ namespace StarterAssets
         public float drainRate = 15f;
         public float rechargeRate = 8f;
         public float fastRechargeRate = 20f;
-        public Slider staminaSlider;
+        public Image staminaImage;
 
         private float stamina;
         private bool exhausted;
@@ -48,8 +48,6 @@ namespace StarterAssets
         {
             cam = Camera.main;
             stamina = maxStamina;
-            if (staminaSlider != null)
-                staminaSlider.maxValue = maxStamina;
             if (grabLoopAudio != null)
             {
                 grabLoopAudio.loop = true;
@@ -152,8 +150,7 @@ namespace StarterAssets
                 }
             }
 
-            if (staminaSlider != null)
-                staminaSlider.value = stamina;
+            if (staminaImage != null) staminaImage.fillAmount = stamina / maxStamina;
         }
 
         private void FixedUpdate()

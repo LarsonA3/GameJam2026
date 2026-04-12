@@ -5,19 +5,16 @@ public class Health : MonoBehaviour
 {
     [Header("Health Settings")]
     public float maxHealth = 100f;
-    public Slider healthSlider;
+    
+    // Changed from Slider to Image
+    public Image healthImage; 
 
     private float currentHealth;
 
     private void Start()
     {
         currentHealth = maxHealth;
-
-        if (healthSlider != null)
-        {
-            healthSlider.maxValue = maxHealth;
-            healthSlider.value = maxHealth;
-        }
+        UpdateHealthUI();
     }
 
     public void TakeDamage(float amount)
@@ -25,8 +22,7 @@ public class Health : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Max(currentHealth, 0f);
 
-        if (healthSlider != null)
-            healthSlider.value = currentHealth;
+        UpdateHealthUI();
 
         if (currentHealth <= 0f)
             Die();
@@ -35,16 +31,20 @@ public class Health : MonoBehaviour
     public void Heal(float amount)
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
-
-        if (healthSlider != null)
-            healthSlider.value = currentHealth;
+        UpdateHealthUI();
     }
 
     private void Die()
     {
         PlayerDeath.instance.Die();
         currentHealth = maxHealth;
-        if (healthSlider != null)
-            healthSlider.value = currentHealth;
+        UpdateHealthUI();
+    }
+    private void UpdateHealthUI()
+    {
+        if (healthImage != null)
+        {
+            healthImage.fillAmount = currentHealth / maxHealth;
+        }
     }
 }
