@@ -940,7 +940,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/Materials/pillow.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_bf6b6d80-8cff-409c-9356-fe7c56aa68a2
+    name: UM_OperatedMesh_a692407d-f6b7-4a9d-948c-f53d58922a19
     skinnedMesh: 0
     sharedMesh: {fileID: 104790840}
     buidVersion:
@@ -953,7 +953,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: bf6b6d80-8cff-409c-9356-fe7c56aa68a2
+  sourceMeshRendererGUID: a692407d-f6b7-4a9d-948c-f53d58922a19
   guid: 82b96c34-4892-4500-8111-e49c31d2331d
   localOptions:
     RecalculateTangents: 0
@@ -2432,7 +2432,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/Materials/wood.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_89083c37-b25a-49c3-9571-2f3ad0abf9b9
+    name: UM_OperatedMesh_c3b272cf-7208-4b9a-b5ea-9a8816625505
     skinnedMesh: 0
     sharedMesh: {fileID: 1781712453}
     buidVersion:
@@ -2445,7 +2445,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 89083c37-b25a-49c3-9571-2f3ad0abf9b9
+  sourceMeshRendererGUID: c3b272cf-7208-4b9a-b5ea-9a8816625505
   guid: 55b60512-e2d6-4574-adde-ae3f08382a98
   localOptions:
     RecalculateTangents: 0
@@ -2734,6 +2734,7 @@ GameObject:
   - component: {fileID: 999462781}
   - component: {fileID: 999462780}
   - component: {fileID: 999462783}
+  - component: {fileID: 999462784}
   m_Layer: 0
   m_Name: pillow
   m_TagString: PushableObject
@@ -2762,7 +2763,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/Materials/pillow.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_47dec6f1-014e-4ec6-b7d5-a24b3ede24c7
+    name: UM_OperatedMesh_c5fcf611-8909-48b3-bd6e-460a0444f993
     skinnedMesh: 0
     sharedMesh: {fileID: 858988449}
     buidVersion:
@@ -2775,7 +2776,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 47dec6f1-014e-4ec6-b7d5-a24b3ede24c7
+  sourceMeshRendererGUID: c5fcf611-8909-48b3-bd6e-460a0444f993
   guid: 35cfa17b-9343-45d9-8493-8251a566e5a8
   localOptions:
     RecalculateTangents: 0
@@ -2896,6 +2897,27 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &999462784
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 999462778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.5528479, y: 0.26465142, z: 0.82241714}
+  m_Center: {x: 0.77642393, y: 0.13232571, z: 0.41120857}
 --- !u!1 &999954337
 GameObject:
   m_ObjectHideFlags: 0
@@ -3494,7 +3516,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_095c897c-27d1-4ab9-b96c-609876e3fb69
+    name: UM_OperatedMesh_d07a686e-f04a-4f78-a243-2a588eaacff9
     skinnedMesh: 0
     sharedMesh: {fileID: 1127671360}
     buidVersion:
@@ -3507,7 +3529,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 095c897c-27d1-4ab9-b96c-609876e3fb69
+  sourceMeshRendererGUID: d07a686e-f04a-4f78-a243-2a588eaacff9
   guid: 2890c1d8-7154-4fb1-ace5-1e7752d02974
   localOptions:
     RecalculateTangents: 0
@@ -3894,7 +3916,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_54905937-85e1-496b-9007-981935ebf31b
+    name: UM_OperatedMesh_1b973a99-8bf2-4ff6-b05c-84334274f4dd
     skinnedMesh: 0
     sharedMesh: {fileID: 1491525055}
     buidVersion:
@@ -3907,7 +3929,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 54905937-85e1-496b-9007-981935ebf31b
+  sourceMeshRendererGUID: 1b973a99-8bf2-4ff6-b05c-84334274f4dd
   guid: 4e9bdf49-da63-4ca7-8256-9e53fa3060f3
   localOptions:
     RecalculateTangents: 0
@@ -4703,7 +4725,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/RoomOne/Food.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_9af56e3c-86f4-4ef6-bc73-b3253caf0c17
+    name: UM_OperatedMesh_d5716adc-237b-4dd3-bc2e-655eaa25dfd3
     skinnedMesh: 0
     sharedMesh: {fileID: 1477965095}
     buidVersion:
@@ -4716,7 +4738,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 9af56e3c-86f4-4ef6-bc73-b3253caf0c17
+  sourceMeshRendererGUID: d5716adc-237b-4dd3-bc2e-655eaa25dfd3
   guid: 3e992d3c-5048-4f71-bfc9-47e57b55f368
   localOptions:
     RecalculateTangents: 0
@@ -5432,7 +5454,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_296a6915-3ab0-4987-93c9-b6761c9dd7db
+    name: UM_OperatedMesh_038acef7-0985-4d35-8cde-2957ef4ab571
     skinnedMesh: 0
     sharedMesh: {fileID: 944411137}
     buidVersion:
@@ -5445,7 +5467,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 296a6915-3ab0-4987-93c9-b6761c9dd7db
+  sourceMeshRendererGUID: 038acef7-0985-4d35-8cde-2957ef4ab571
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -5747,7 +5769,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a1c76594-54d3-4133-ad2a-a66913ebebe2
+    name: UM_OperatedMesh_cf8aceb2-b46c-4592-90b5-0e9878e13cef
     skinnedMesh: 0
     sharedMesh: {fileID: 2022839179}
     buidVersion:
@@ -5760,7 +5782,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a1c76594-54d3-4133-ad2a-a66913ebebe2
+  sourceMeshRendererGUID: cf8aceb2-b46c-4592-90b5-0e9878e13cef
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0
@@ -6148,7 +6170,7 @@ MonoBehaviour:
   - Assets/METAL/Materials/2DIAMOND.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_89eb950a-56e4-4292-b62b-8c9fb9bb851d
+    name: UM_OperatedMesh_10dfb4e7-5ffd-49d4-a657-496c0fe0a8d1
     skinnedMesh: 0
     sharedMesh: {fileID: 1394054587}
     buidVersion:
@@ -6161,7 +6183,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 89eb950a-56e4-4292-b62b-8c9fb9bb851d
+  sourceMeshRendererGUID: 10dfb4e7-5ffd-49d4-a657-496c0fe0a8d1
   guid: d5d10283-7732-4d73-bf33-2c7770c99b4e
   localOptions:
     RecalculateTangents: 0
@@ -7301,7 +7323,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Materials/TurretLegs.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4e3c39a2-511e-4c40-a365-f34cd4f9f86f
+    name: UM_OperatedMesh_dc96b05b-ce46-406d-8791-75d1430a5290
     skinnedMesh: 0
     sharedMesh: {fileID: 839739268}
     buidVersion:
@@ -7314,7 +7336,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4e3c39a2-511e-4c40-a365-f34cd4f9f86f
+  sourceMeshRendererGUID: dc96b05b-ce46-406d-8791-75d1430a5290
   guid: ee7d45ab-2615-4779-a782-9d6c7c4ca1ff
   localOptions:
     RecalculateTangents: 0

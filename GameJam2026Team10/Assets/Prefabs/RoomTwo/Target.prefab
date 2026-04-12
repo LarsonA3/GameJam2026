@@ -59,7 +59,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_ea5fd609-8a33-4dea-bcc0-dacd89c91dd7
+    name: UM_OperatedMesh_243eea88-f934-4e21-8219-65d27a8d99ea
     skinnedMesh: 0
     sharedMesh: {fileID: -5848732970164399401}
     buidVersion:
@@ -72,7 +72,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: ea5fd609-8a33-4dea-bcc0-dacd89c91dd7
+  sourceMeshRendererGUID: 243eea88-f934-4e21-8219-65d27a8d99ea
   guid: 8e4ef402-727b-46e1-afcc-8c6701de84cc
   localOptions:
     RecalculateTangents: 0
@@ -207,9 +207,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 20
+  MaxDistance: 30
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
