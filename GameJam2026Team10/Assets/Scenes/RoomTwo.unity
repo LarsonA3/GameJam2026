@@ -764,7 +764,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -812,12 +812,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_85e65e93-fab7-4584-b84f-53ae92a66730
+    name: UM_OperatedMesh_0ee10e60-4aa8-43b3-a96a-2f7dedf3b3ac
     skinnedMesh: 0
     sharedMesh: {fileID: 403198393}
     buidVersion:
@@ -830,7 +830,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 85e65e93-fab7-4584-b84f-53ae92a66730
+  sourceMeshRendererGUID: 0ee10e60-4aa8-43b3-a96a-2f7dedf3b3ac
   guid: b6eb208d-888b-45ae-a1ba-bb9ed5cb8133
   localOptions:
     RecalculateTangents: 0
@@ -1825,7 +1825,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Room2/Red.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e2dcb025-2be3-4a06-896d-384133d8b93a
+    name: UM_OperatedMesh_b730b5e6-da9f-42c4-b3a6-6a44e194ef9d
     skinnedMesh: 0
     sharedMesh: {fileID: 99334224}
     buidVersion:
@@ -1838,7 +1838,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e2dcb025-2be3-4a06-896d-384133d8b93a
+  sourceMeshRendererGUID: b730b5e6-da9f-42c4-b3a6-6a44e194ef9d
   guid: b4c529ca-e148-4533-b529-d16fbf81c59b
   localOptions:
     RecalculateTangents: 0
@@ -3274,7 +3274,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3322,12 +3322,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
-  - Assets/CONCRETE/Materials/CONCRETWALLS.mat
+  - Assets/METAL/Materials/wallNEW!.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_50bfeae5-8e5a-4bea-ac07-244003917dd6
+    name: UM_OperatedMesh_649dec5c-aaa8-4e4d-92f7-e4144bf5ea0b
     skinnedMesh: 0
     sharedMesh: {fileID: 1965415481}
     buidVersion:
@@ -3340,7 +3340,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 50bfeae5-8e5a-4bea-ac07-244003917dd6
+  sourceMeshRendererGUID: 649dec5c-aaa8-4e4d-92f7-e4144bf5ea0b
   guid: 744e649f-8200-4c91-b0e2-41bf07593694
   localOptions:
     RecalculateTangents: 0
@@ -4691,7 +4691,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4739,12 +4739,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6dfb7875-0fe1-4ffc-a8d8-d89e03afa2e0
+    name: UM_OperatedMesh_88f59935-4936-4452-aa5c-7a76e04708eb
     skinnedMesh: 0
     sharedMesh: {fileID: 1708253363}
     buidVersion:
@@ -4757,7 +4757,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6dfb7875-0fe1-4ffc-a8d8-d89e03afa2e0
+  sourceMeshRendererGUID: 88f59935-4936-4452-aa5c-7a76e04708eb
   guid: 22096858-598a-4409-b88c-e4e948c4dfe5
   localOptions:
     RecalculateTangents: 0
@@ -4997,7 +4997,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_badf7d0d-ae88-4ac2-bee2-02123593cfac
+    name: UM_OperatedMesh_345a67f8-fe3c-41fa-b6cd-1a6d50c3742c
     skinnedMesh: 0
     sharedMesh: {fileID: 946060566}
     buidVersion:
@@ -5010,7 +5010,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: badf7d0d-ae88-4ac2-bee2-02123593cfac
+  sourceMeshRendererGUID: 345a67f8-fe3c-41fa-b6cd-1a6d50c3742c
   guid: cd41d8ed-62e5-4f18-a28b-ca59e3d451c1
   localOptions:
     RecalculateTangents: 0
@@ -5741,7 +5741,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_65f869f4-8490-43e8-be3e-0e4970ea7799
+    name: UM_OperatedMesh_7f04699a-df7b-4b06-abe2-0bf65175e5c6
     skinnedMesh: 0
     sharedMesh: {fileID: 273105176}
     buidVersion:
@@ -5754,7 +5754,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 65f869f4-8490-43e8-be3e-0e4970ea7799
+  sourceMeshRendererGUID: 7f04699a-df7b-4b06-abe2-0bf65175e5c6
   guid: e4ddc610-da32-4029-b9e8-a993bae87a82
   localOptions:
     RecalculateTangents: 0
@@ -5859,7 +5859,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5907,12 +5907,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d05189b3-9a6f-49e1-8930-38c5a2c630fd
+    name: UM_OperatedMesh_e1de6617-2320-4af1-835f-d38336716715
     skinnedMesh: 0
     sharedMesh: {fileID: 1789221435}
     buidVersion:
@@ -5925,7 +5925,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d05189b3-9a6f-49e1-8930-38c5a2c630fd
+  sourceMeshRendererGUID: e1de6617-2320-4af1-835f-d38336716715
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -6090,7 +6090,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: ad80740abfbb4504fbc01d5eeaad9bee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6138,12 +6138,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: ad80740abfbb4504fbc01d5eeaad9bee, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_df4438ee-13e8-4269-bb6a-9eafbcca8442
+    name: UM_OperatedMesh_057c821b-8066-4f7d-8c89-6aa703b1f68c
     skinnedMesh: 0
     sharedMesh: {fileID: 288376912}
     buidVersion:
@@ -6156,7 +6156,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: df4438ee-13e8-4269-bb6a-9eafbcca8442
+  sourceMeshRendererGUID: 057c821b-8066-4f7d-8c89-6aa703b1f68c
   guid: fa62efbc-4e71-4f0c-90da-774d1ac70f1e
   localOptions:
     RecalculateTangents: 0
@@ -6312,7 +6312,7 @@ MonoBehaviour:
   - Assets/FABRIC/Materials/CARPET.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_e130d50b-2f2a-49ab-a6fd-3930a33c3081
+    name: UM_OperatedMesh_cd41873b-5b71-4604-837c-ca1f3264f016
     skinnedMesh: 0
     sharedMesh: {fileID: 128306233}
     buidVersion:
@@ -6325,7 +6325,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: e130d50b-2f2a-49ab-a6fd-3930a33c3081
+  sourceMeshRendererGUID: cd41873b-5b71-4604-837c-ca1f3264f016
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -7100,7 +7100,7 @@ MonoBehaviour:
   - Assets/FABRIC/Materials/CARPET.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b3e29d67-e261-4e64-90fe-9d0627a5c91b
+    name: UM_OperatedMesh_4b2c6302-690f-4863-a3ef-c28363cb729b
     skinnedMesh: 0
     sharedMesh: {fileID: 109781782}
     buidVersion:
@@ -7113,7 +7113,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b3e29d67-e261-4e64-90fe-9d0627a5c91b
+  sourceMeshRendererGUID: 4b2c6302-690f-4863-a3ef-c28363cb729b
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -7180,7 +7180,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7228,12 +7228,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3f0c75b7-a191-4e53-854e-7ca21ecf11da
+    name: UM_OperatedMesh_367fdcf0-cb70-426a-a9b0-2dad1c4e8ec6
     skinnedMesh: 0
     sharedMesh: {fileID: 2140557020}
     buidVersion:
@@ -7246,7 +7246,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3f0c75b7-a191-4e53-854e-7ca21ecf11da
+  sourceMeshRendererGUID: 367fdcf0-cb70-426a-a9b0-2dad1c4e8ec6
   guid: faf8c28f-e320-4793-b234-bfeddc5bf667
   localOptions:
     RecalculateTangents: 0
@@ -7956,7 +7956,7 @@ MonoBehaviour:
   - Assets/FABRIC/Materials/CARPET.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a5ad69c4-8327-4242-8cce-31f7875cd366
+    name: UM_OperatedMesh_66c17be7-9826-45d0-95c2-e2dd8be62051
     skinnedMesh: 0
     sharedMesh: {fileID: 2059647335}
     buidVersion:
@@ -7969,7 +7969,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a5ad69c4-8327-4242-8cce-31f7875cd366
+  sourceMeshRendererGUID: 66c17be7-9826-45d0-95c2-e2dd8be62051
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -8088,7 +8088,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f73ff1f0-efd4-4c0a-9ffe-9aab0262f5e7
+    name: UM_OperatedMesh_43777180-8432-49df-b4d8-6cc38ae40df1
     skinnedMesh: 0
     sharedMesh: {fileID: 678266849}
     buidVersion:
@@ -8101,7 +8101,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f73ff1f0-efd4-4c0a-9ffe-9aab0262f5e7
+  sourceMeshRendererGUID: 43777180-8432-49df-b4d8-6cc38ae40df1
   guid: 53dd1904-b6a9-4715-8d8a-c5bd686438a3
   localOptions:
     RecalculateTangents: 0
@@ -8209,7 +8209,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8257,12 +8257,12 @@ MonoBehaviour:
   isPaintingEnabled: 0
   currentEditor: 
   materials:
-  - {fileID: 2100000, guid: ac9db7752f3682c4d8cdcca1fb220d08, type: 2}
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
   materialsPath:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_dc090633-3a49-48b2-b7f7-6800ccfb46b3
+    name: UM_OperatedMesh_b20dac67-2daa-4c74-ba97-37e61d2f561c
     skinnedMesh: 0
     sharedMesh: {fileID: 1232664631}
     buidVersion:
@@ -8275,7 +8275,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: dc090633-3a49-48b2-b7f7-6800ccfb46b3
+  sourceMeshRendererGUID: b20dac67-2daa-4c74-ba97-37e61d2f561c
   guid: b6eb208d-888b-45ae-a1ba-bb9ed5cb8133
   localOptions:
     RecalculateTangents: 0
@@ -8400,10 +8400,10 @@ MonoBehaviour:
   DataType: 0
   DataVersion: 5
   Materials:
-  - {fileID: 2100000, guid: 4e9d0c37787f479428bdf2ab1220936b, type: 2}
-  DataStream: 91920198949996dc00300000020104040506111213131615171718181a191c1c1d1e242426252828292a30303231343435363c3c3e3d40404142dc0030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dc003093ca40000000ca00000000cabf80000093ca40000000ca40c00000cabf80000093ca40000000ca00000000ca0000000093ca40000000ca40c00000ca0000000093ca00000000ca00000000cabf80000093ca00000000ca40c00000cabf80000093ca00000000ca00000000ca0000000093ca00000000ca40c00000ca0000000093cac00f9678ca40c00000cabf80000093ca00000000ca40c00000cabf80000093cac00f9678ca40c00000ca0000000093ca00000000ca40c00000ca0000000093cac00f9678ca40472125cabf80000093ca00000000ca40472125cabf80000093cac00f9678ca40472125ca0000000093ca00000000ca40472125ca0000000093cac00eec6cca00000000ca0000000093cac0a00000ca00000000ca0000000093cac00eec6cca00000000cabf80000093cac0a00000ca00000000cabf80000093cac00eec6cca40c00000ca0000000093cac0a00000ca40c00000ca0000000093cac00eec6cca40c00000cabf80000093cac0a00000ca40c00000cabf80000093cac0a00000ca00000000ca0000000093cac1800000ca00000000ca0000000093cac0a00000ca00000000cabf80000093cac1800000ca00000000cabf80000093cac0a00000ca3f800000ca0000000093cac1800000ca3f800000ca0000000093cac0a00000ca3f800000cabf80000093cac1800000ca3f800000cabf80000093cac0a00000ca4051bf4aca0000000093cac1800000ca4051bf4aca0000000093cac0a00000ca4051bf4acabf80000093cac1800000ca4051bf4acabf80000093cac0a00000ca40c00000ca0000000093cac1800000ca40c00000ca0000000093cac0a00000ca40c00000cabf80000093cac1800000ca40c00000cabf80000093cac1800000ca3c23d800cabf80000093cac1800000ca40c051eccabf80000093cac1800000ca3c23d800ca0000000093cac1800000ca40c051ecca0000000093cac1900000ca3c23d800cabf80000093cac1900000ca40c051eccabf80000093cac1900000ca3c23d800ca0000000093cac1900000ca40c051ecca0000000090900398dc0048000103020504060700050306090c0a0f08090b0a0d0c0e0f10111312151416171015131618191b1a1d1c1e1f181d1b1e20212322252426272025232628292b2a2d2c2e2f282d2b2edc00480103020004060705040107020d080e0b0a08090b0f0d0c0e111312101416171514111712191b1a181c1e1f1d1c191f1a212322202426272524212722292b2a282c2e2f2d2c292f2adc004808140c100a120e16131517111e181a1c19211d251f231b2738443c403a423e4643454741505c5458525a565e5b5d5f5968746c706a726e7673757771cc80cc8ccc84cc88cc82cc8acc86cc8ecc8bcc8dcc8fcc89dc0048080001020904050603070206111510141112130e1516170f2018191a211c1d1e1b1f1a1e2c2425262d28292a272b262a383031323934353633373236443c3d3e454041423f433e42dc004803090a0b07080b0a00040105121613170d0c0f100c0d0e141b2122231f202322181c191d272d2e2f2b2c2f2e2428252933393a3b37383b3a303431353f454647434447463c403d41dc0048090a0b00080b0a040501070314101612130d0c0f170c0d0e212223182023221c1d191f1b2d2e2f242c2f2e2829252b27393a3b30383b3a34353137334546473c44474640413d433fdc0048010203080506070904000602151117130e1011120f141516191a1b201d1e1f211c181e1a2526272c292a2b2d28242a263132333835363739343036323d3e3f4441424345403c423edc00480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009bdc00900103020004060705000405010307060202060400010507030c080a0e0f0b090d0d09080c0e0a0b0f0a08090b0f0d0c0e111312101416171510141511131716121216141011151713191b1a181c1e1f1d181c1d191b1f1e1a1a1e1c18191d1f1b212322202426272520242521232726222226242021252723292b2a282c2e2f2d282c2d292b2f2e2a2a2e2c28292d2f2bdc0090000102030405060700080409020a060b030b05080109070a0d100e160f120c140c110d150e130f17101112131415161718191a1b1c1d1e1f18201c211a221e231b231d2019211f222425262728292a2b242c282d262e2a2f272f292c252d2b2e303132333435363730383439323a363b333b35383139373a3c3d3e3f404142433c4440453e4642473f4741443d454346dc0090000000000101010102020202030303030404040405050505060606060707070708080808090909090a0a0a0a0b0b0b0b0c0c0c0c0d0d0d0d0e0e0e0e0f0f0f0f101010101111111112121212131313131414141415151515161616161717171718181818191919191a1a1a1a1b1b1b1b1c1c1c1c1d1d1d1d1e1e1e1e1f1f1f1f20202020212121212222222223232323dc0090090602080a03070b0c0a0b0d060703020203010004050706151416171b1a1819191814150e10110f101418111319151225221e24261f23272826272922231f1e1e1f1d1c2021232233302c32342d31353634353730312d2c2c2d2b2a2e2f3130413e3a40423b3f43444243453e3f3b3a3a3b39383c3d3f3e4f4c484e50494d51525051534c4d4948484947464a4b4d4cdc0090ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc009008140c100a120e160013041502170611030f0509010b070d2228242e262a202c1e29182d1a2b1c2f19211d251f231b2738443c403a423e463043344532473641333f3539313b373d505c5458525a565e485b4c5d4a5f4e594b574d5149534f5568746c706a726e766073647562776671636f6569616b676dcc80cc8ccc84cc88cc82cc8acc86cc8e78cc8b7ccc8d7acc8f7ecc897bcc877dcc8179cc837fcc85dc009008140c100a120e160013041502170611030f0509010b070d2228242e262a202c1e29182d1a2b1c2f19211d251f231b2738443c403a423e463043344532473641333f3539313b373d505c5458525a565e485b4c5d4a5f4e594b574d5149534f5568746c706a726e766073647562776671636f6569616b676dcc80cc8ccc84cc88cc82cc8acc86cc8e78cc8b7ccc8d7acc8f7ecc897bcc877dcc8179cc837fcc85dc009003000102070405060b08090a0f0c0d0e1310111217141516191a1b181d1e1f1c2122232025262724292a2b282d2e2f2c33303132373435363b38393a3f3c3d3e43404142474445464b48494a4f4c4d4e53505152575455565b58595a5f5c5d5e63606162676465666b68696a6f6c6d6e73707172777475767b78797a7f7c7d7ecc83cc80cc81cc82cc87cc84cc85cc86cc8bcc88cc89cc8acc8fcc8ccc8dcc8edc00900102030005060704090a0b080d0e0f0c11121310151617141b18191a1f1c1d1e23202122272425262b28292a2f2c2d2e3132333035363734393a3b383d3e3f3c4142434045464744494a4b484d4e4f4c5152535055565754595a5b585d5e5f5c6162636065666764696a6b686d6e6f6c7172737075767774797a7b787d7e7f7ccc81cc82cc83cc80cc85cc86cc87cc84cc89cc8acc8bcc88cc8dcc8ecc8fcc8c909096dc00240004080c10141b1f23272b2f3034383c4044484c5054585c6064686c7074787ccc80cc84cc88cc8cdc0024ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc0024000000000000000000000000000000000000000000000000000000000000000000000000dc0024000000000000000000000000000000000000000000000000000000000000000000000000c0dc0024000000000000000000000000000000000000000000000000000000000000000000000000949090909092dc005400040206010503070001040500010e0f0a0b0e0f080c0a0e090d0b0f1014121611151317101114151011181c1a1e191d1b1f18191c1d18192024222621252327202124252021282c2a2e292d2b2f28292c2d2829dc005492ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3f800000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f400000ca3eaaaaab92ca00000000ca3f2aaaab92ca00000000ca3eaaaaab92ca3f000000ca3f2aaaaa92ca3e800000ca3f2aaaaa92ca3f000000ca3f80000092ca3e800000ca3f80000092ca3f000000ca3eaaaaab92ca3e800000ca3eaaaaab92ca3f000000ca0000000092ca3e800000ca0000000092ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaabc0d963475549443d66333636363930362d383834382d343831642d613038372d3363613064363239373632632c506f733d302c436f6c6f723d302c55563d302c4964783d302c42573d302c4f7074696d697a65643d46616c73652c5472616e73666f726d3d3090d93f475549443d2c506f733d302c436f6c6f723d302c55563d302c4964783d302c42573d302c4f7074696d697a65643d46616c73652c5472616e73666f726d3d30c2979090919090919098ca00000000ca00000000ca00000000ca00000000ca00000000ca00000000ca00000000c29090ff9199ff9193c000c00000c0c0c0c0c000919193d9203465396430633337373837663437393432386264663261623132323039333662ce00200b20d92a4173736574732f434f4e43524554452f4d6174657269616c732f434f4e4352455457414c4c532e6d61749297b3526563616c63756c61746554616e67656e7473c0b153617665496e5363656e65466f6c646572b24175746f486f7473706f744368616e6e656cac436f6c6c696465724d6f6465d9234175746f47656e6572617465536d6f6f74684e6f726d616c546f55564368616e6e656cd9224175746f47656e6572617465536d6f6f74684e6f726d616c566563746f725479706597a546616c7365c0a546616c7365a130a546616c7365a130a1309193a000a0
+  - {fileID: 2100000, guid: 404f9faecac1f6d43b5fcefa89522ab1, type: 2}
+  DataStream: 91920198949996dc00300000020104040506111213131615171718181a191c1c1d1e242426252828292a30303231343435363c3c3e3d40404142dc0030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000dc003093ca40000000ca00000000cabf80000093ca40000000ca40c00000cabf80000093ca40000000ca00000000ca0000000093ca40000000ca40c00000ca0000000093ca00000000ca00000000cabf80000093ca00000000ca40c00000cabf80000093ca00000000ca00000000ca0000000093ca00000000ca40c00000ca0000000093cac00f9678ca40c00000cabf80000093ca00000000ca40c00000cabf80000093cac00f9678ca40c00000ca0000000093ca00000000ca40c00000ca0000000093cac00f9678ca40472125cabf80000093ca00000000ca40472125cabf80000093cac00f9678ca40472125ca0000000093ca00000000ca40472125ca0000000093cac00eec6cca00000000ca0000000093cac0a00000ca00000000ca0000000093cac00eec6cca00000000cabf80000093cac0a00000ca00000000cabf80000093cac00eec6cca40c00000ca0000000093cac0a00000ca40c00000ca0000000093cac00eec6cca40c00000cabf80000093cac0a00000ca40c00000cabf80000093cac0a00000ca00000000ca0000000093cac1800000ca00000000ca0000000093cac0a00000ca00000000cabf80000093cac1800000ca00000000cabf80000093cac0a00000ca3f800000ca0000000093cac1800000ca3f800000ca0000000093cac0a00000ca3f800000cabf80000093cac1800000ca3f800000cabf80000093cac0a00000ca4051bf4aca0000000093cac1800000ca4051bf4aca0000000093cac0a00000ca4051bf4acabf80000093cac1800000ca4051bf4acabf80000093cac0a00000ca40c00000ca0000000093cac1800000ca40c00000ca0000000093cac0a00000ca40c00000cabf80000093cac1800000ca40c00000cabf80000093cac1800000ca3c23d800cabf80000093cac1800000ca40c051eccabf80000093cac1800000ca3c23d800ca0000000093cac1800000ca40c051ecca0000000093cac1900000ca3c23d800cabf80000093cac1900000ca40c051eccabf80000093cac1900000ca3c23d800ca0000000093cac1900000ca40c051ecca0000000090900398dc0048000103020504060700050306090c0a0f08090b0a0d0c0e0f10111312151416171015131618191b1a1d1c1e1f181d1b1e20212322252426272025232628292b2a2d2c2e2f282d2b2edc00480103020004060705040107020d080e0b0a08090b0f0d0c0e111312101416171514111712191b1a181c1e1f1d1c191f1a212322202426272524212722292b2a282c2e2f2d2c292f2adc004808140c100a120e16131517111e181a1c19211d251f231b2738443c403a423e4643454741505c5458525a565e5b5d5f5968746c706a726e7673757771cc80cc8ccc84cc88cc82cc8acc86cc8ecc8bcc8dcc8fcc89dc0048080001020904050603070206111510141112130e1516170f2018191a211c1d1e1b1f1a1e2c2425262d28292a272b262a383031323934353633373236443c3d3e454041423f433e42dc004803090a0b07080b0a00040105121613170d0c0f100c0d0e141b2122231f202322181c191d272d2e2f2b2c2f2e2428252933393a3b37383b3a303431353f454647434447463c403d41dc0048090a0b00080b0a040501070314101612130d0c0f170c0d0e212223182023221c1d191f1b2d2e2f242c2f2e2829252b27393a3b30383b3a34353137334546473c44474640413d433fdc0048010203080506070904000602151117130e1011120f141516191a1b201d1e1f211c181e1a2526272c292a2b2d28242a263132333835363739343036323d3e3f4441424345403c423edc00480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009bdc00900103020004060705000405010307060202060400010507030c080a0e0f0b090d0d09080c0e0a0b0f0a08090b0f0d0c0e111312101416171510141511131716121216141011151713191b1a181c1e1f1d181c1d191b1f1e1a1a1e1c18191d1f1b212322202426272520242521232726222226242021252723292b2a282c2e2f2d282c2d292b2f2e2a2a2e2c28292d2f2bdc0090000102030405060700080409020a060b030b05080109070a0d100e160f120c140c110d150e130f17101112131415161718191a1b1c1d1e1f18201c211a221e231b231d2019211f222425262728292a2b242c282d262e2a2f272f292c252d2b2e303132333435363730383439323a363b333b35383139373a3c3d3e3f404142433c4440453e4642473f4741443d454346dc0090000000000101010102020202030303030404040405050505060606060707070708080808090909090a0a0a0a0b0b0b0b0c0c0c0c0d0d0d0d0e0e0e0e0f0f0f0f101010101111111112121212131313131414141415151515161616161717171718181818191919191a1a1a1a1b1b1b1b1c1c1c1c1d1d1d1d1e1e1e1e1f1f1f1f20202020212121212222222223232323dc0090090602080a03070b0c0a0b0d060703020203010004050706151416171b1a1819191814150e10110f101418111319151225221e24261f23272826272922231f1e1e1f1d1c2021232233302c32342d31353634353730312d2c2c2d2b2a2e2f3130413e3a40423b3f43444243453e3f3b3a3a3b39383c3d3f3e4f4c484e50494d51525051534c4d4948484947464a4b4d4cdc0090ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc009008140c100a120e160013041502170611030f0509010b070d2228242e262a202c1e29182d1a2b1c2f19211d251f231b2738443c403a423e463043344532473641333f3539313b373d505c5458525a565e485b4c5d4a5f4e594b574d5149534f5568746c706a726e766073647562776671636f6569616b676dcc80cc8ccc84cc88cc82cc8acc86cc8e78cc8b7ccc8d7acc8f7ecc897bcc877dcc8179cc837fcc85dc009008140c100a120e160013041502170611030f0509010b070d2228242e262a202c1e29182d1a2b1c2f19211d251f231b2738443c403a423e463043344532473641333f3539313b373d505c5458525a565e485b4c5d4a5f4e594b574d5149534f5568746c706a726e766073647562776671636f6569616b676dcc80cc8ccc84cc88cc82cc8acc86cc8e78cc8b7ccc8d7acc8f7ecc897bcc877dcc8179cc837fcc85dc009003000102070405060b08090a0f0c0d0e1310111217141516191a1b181d1e1f1c2122232025262724292a2b282d2e2f2c33303132373435363b38393a3f3c3d3e43404142474445464b48494a4f4c4d4e53505152575455565b58595a5f5c5d5e63606162676465666b68696a6f6c6d6e73707172777475767b78797a7f7c7d7ecc83cc80cc81cc82cc87cc84cc85cc86cc8bcc88cc89cc8acc8fcc8ccc8dcc8edc00900102030005060704090a0b080d0e0f0c11121310151617141b18191a1f1c1d1e23202122272425262b28292a2f2c2d2e3132333035363734393a3b383d3e3f3c4142434045464744494a4b484d4e4f4c5152535055565754595a5b585d5e5f5c6162636065666764696a6b686d6e6f6c7172737075767774797a7b787d7e7f7ccc81cc82cc83cc80cc85cc86cc87cc84cc89cc8acc8bcc88cc8dcc8ecc8fcc8c909096dc00240004080c10141b1f23272b2f3034383c4044484c5054585c6064686c7074787ccc80cc84cc88cc8cdc0024ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffdc0024000000000000000000000000000000000000000000000000000000000000000000000000dc0024000000000000000000000000000000000000000000000000000000000000000000000000c0dc0024000000000000000000000000000000000000000000000000000000000000000000000000949090909092dc005400040206010503070001040500010e0f0a0b0e0f080c0a0e090d0b0f1014121611151317101114151011181c1a1e191d1b1f18191c1d18192024222621252327202124252021282c2a2e292d2b2f28292c2d2829dc005492ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3f800000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f400000ca3eaaaaab92ca00000000ca3f2aaaab92ca00000000ca3eaaaaab92ca3f000000ca3f2aaaaa92ca3e800000ca3f2aaaaa92ca3f000000ca3f80000092ca3e800000ca3f80000092ca3f000000ca3eaaaaab92ca3e800000ca3eaaaaab92ca3f000000ca0000000092ca3e800000ca0000000092ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaab92ca3e800000ca0000000092ca3f000000ca0000000092ca3e800000ca3eaaaaab92ca3f000000ca3eaaaaab92ca3e800000ca3f80000092ca3f000000ca3f80000092ca3e800000ca3f2aaaaa92ca3f000000ca3f2aaaaa92ca00000000ca3eaaaaab92ca00000000ca3f2aaaab92ca3f400000ca3eaaaaab92ca3f400000ca3f2aaaab92ca3f800000ca3eaaaaab92ca3f800000ca3f2aaaabc0d963475549443d66333636363930362d383834382d343831642d613038372d3363613064363239373632632c506f733d302c436f6c6f723d302c55563d302c4964783d302c42573d302c4f7074696d697a65643d46616c73652c5472616e73666f726d3d3090d963475549443d66333636363930362d383834382d343831642d613038372d3363613064363239373632632c506f733d302c436f6c6f723d302c55563d302c4964783d302c42573d302c4f7074696d697a65643d46616c73652c5472616e73666f726d3d30c2979090919090919098ca00000000ca00000000ca00000000ca00000000ca00000000ca00000000ca00000000c29090ff9199ff9193c000c00000c0c0c0c0c000919193d9203430346639666165636163316636643433623566636566613839353232616231ce00200b20d9234173736574732f4d4554414c2f4d6174657269616c732f77616c6c4e4557212e6d61749297b3526563616c63756c61746554616e67656e7473c0b153617665496e5363656e65466f6c646572b24175746f486f7473706f744368616e6e656cac436f6c6c696465724d6f6465d9234175746f47656e6572617465536d6f6f74684e6f726d616c546f55564368616e6e656cd9224175746f47656e6572617465536d6f6f74684e6f726d616c566563746f725479706597a546616c7365c0a546616c7365a130a546616c7365a130a1309193a000a0
   RenderableBuildVersion:
-    ModifierGUID: 
+    ModifierGUID: f3666906-8848-481d-a087-3ca0d629762c
     PosVersion: 0
     ColorVersion: 0
     UVVersion: 0
@@ -9351,7 +9351,7 @@ MonoBehaviour:
   - Assets/FABRIC/Materials/CARPET.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_3b752fd1-2652-414c-ae10-2d08c39b5912
+    name: UM_OperatedMesh_508d5d08-3c32-41be-a12f-5318675a229b
     skinnedMesh: 0
     sharedMesh: {fileID: 1233133600}
     buidVersion:
@@ -9364,7 +9364,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 3b752fd1-2652-414c-ae10-2d08c39b5912
+  sourceMeshRendererGUID: 508d5d08-3c32-41be-a12f-5318675a229b
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -9484,7 +9484,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_d782664c-0ea1-4c20-82dc-04d2f033d9f5
+    name: UM_OperatedMesh_9d44bdcc-8a92-442f-b649-223dcc3e3944
     skinnedMesh: 0
     sharedMesh: {fileID: 371437734}
     buidVersion:
@@ -9497,7 +9497,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: d782664c-0ea1-4c20-82dc-04d2f033d9f5
+  sourceMeshRendererGUID: 9d44bdcc-8a92-442f-b649-223dcc3e3944
   guid: 3278be41-fc91-4545-9dee-dcadf3c53a1c
   localOptions:
     RecalculateTangents: 0
@@ -9834,7 +9834,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_655b7755-7e6a-46e6-9449-9c4529d919ea
+    name: UM_OperatedMesh_2cac083a-c000-4205-8846-7c4daf7510a5
     skinnedMesh: 0
     sharedMesh: {fileID: 1860549179}
     buidVersion:
@@ -9847,7 +9847,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 655b7755-7e6a-46e6-9449-9c4529d919ea
+  sourceMeshRendererGUID: 2cac083a-c000-4205-8846-7c4daf7510a5
   guid: 7b77d85d-d6e3-4960-8cc1-84329742a9e0
   localOptions:
     RecalculateTangents: 0
@@ -11578,7 +11578,7 @@ MonoBehaviour:
   - Assets/ARCHITECTURAL/Materials/M_YFAM_TilesWorn.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_f9b3eff3-8ef6-439b-a753-b7ab2d5f4ffa
+    name: UM_OperatedMesh_b3227a16-832d-4da5-a5a2-ed821110df80
     skinnedMesh: 0
     sharedMesh: {fileID: 1691104562}
     buidVersion:
@@ -11591,7 +11591,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: f9b3eff3-8ef6-439b-a753-b7ab2d5f4ffa
+  sourceMeshRendererGUID: b3227a16-832d-4da5-a5a2-ed821110df80
   guid: 3278be41-fc91-4545-9dee-dcadf3c53a1c
   localOptions:
     RecalculateTangents: 0
@@ -11830,7 +11830,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_6c31cbd1-5dab-4b15-b936-66e133d34f07
+    name: UM_OperatedMesh_6559094d-87a1-4057-833f-e64193225ef7
     skinnedMesh: 0
     sharedMesh: {fileID: 1720828434}
     buidVersion:
@@ -11843,7 +11843,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 6c31cbd1-5dab-4b15-b936-66e133d34f07
+  sourceMeshRendererGUID: 6559094d-87a1-4057-833f-e64193225ef7
   guid: 29a03593-f2fd-4f87-bba4-8670975f5036
   localOptions:
     RecalculateTangents: 0
@@ -12269,7 +12269,7 @@ MonoBehaviour:
   - Assets/Materials,Textures,Sprites/Room2/Black.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_53a821a0-501b-43c3-80df-f46413029d98
+    name: UM_OperatedMesh_99694b52-abdc-4249-9df9-17051639ab3e
     skinnedMesh: 0
     sharedMesh: {fileID: 714591438}
     buidVersion:
@@ -12282,7 +12282,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 53a821a0-501b-43c3-80df-f46413029d98
+  sourceMeshRendererGUID: 99694b52-abdc-4249-9df9-17051639ab3e
   guid: b4c529ca-e148-4533-b529-d16fbf81c59b
   localOptions:
     RecalculateTangents: 0
@@ -12750,7 +12750,7 @@ MonoBehaviour:
   - Assets/ARCHITECTURAL/Materials/M_YFAM_TilesWorn.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4be0d907-18f7-4f63-b270-eac23974a27a
+    name: UM_OperatedMesh_f7061263-327c-446b-b9d6-09481b909692
     skinnedMesh: 0
     sharedMesh: {fileID: 1573026635}
     buidVersion:
@@ -12763,7 +12763,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4be0d907-18f7-4f63-b270-eac23974a27a
+  sourceMeshRendererGUID: f7061263-327c-446b-b9d6-09481b909692
   guid: 3278be41-fc91-4545-9dee-dcadf3c53a1c
   localOptions:
     RecalculateTangents: 0
@@ -12841,7 +12841,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_4e1b6848-8ad8-436c-b134-89df68d71831
+    name: UM_OperatedMesh_d8308f4c-5fdb-4b4a-ba75-ac11e994e842
     skinnedMesh: 0
     sharedMesh: {fileID: 925081144}
     buidVersion:
@@ -12854,7 +12854,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: 4e1b6848-8ad8-436c-b134-89df68d71831
+  sourceMeshRendererGUID: d8308f4c-5fdb-4b4a-ba75-ac11e994e842
   guid: 4ecd135f-9fc9-48f6-a279-dbadd74e21e0
   localOptions:
     RecalculateTangents: 0
@@ -13147,7 +13147,7 @@ MonoBehaviour:
   - Assets/ARCHITECTURAL/Materials/M_YFAM_TilesWorn.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_a25c823e-6fa1-40e4-80f0-82aa6870e229
+    name: UM_OperatedMesh_67cbc9e1-7f70-4e4e-ae78-7fd7f3c5129c
     skinnedMesh: 0
     sharedMesh: {fileID: 555897437}
     buidVersion:
@@ -13160,7 +13160,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: a25c823e-6fa1-40e4-80f0-82aa6870e229
+  sourceMeshRendererGUID: 67cbc9e1-7f70-4e4e-ae78-7fd7f3c5129c
   guid: 744e649f-8200-4c91-b0e2-41bf07593694
   localOptions:
     RecalculateTangents: 0
@@ -13987,7 +13987,7 @@ MonoBehaviour:
   - Packages/com.tripolygon.umodeler-x/Editor/Resources/Materials/UModelerX_Gray_URP.mat
   currentMaterialIndex: 0
   renderableMesh:
-    name: UM_OperatedMesh_b264b220-a8ed-45e9-9979-1228330a537e
+    name: UM_OperatedMesh_48badc8c-9848-477f-b066-e2e6e5260f06
     skinnedMesh: 0
     sharedMesh: {fileID: 1333967095}
     buidVersion:
@@ -14000,7 +14000,7 @@ MonoBehaviour:
       OptimizedTopology: 0
       TransformVersion: 0
   sourceMesh: {fileID: 0}
-  sourceMeshRendererGUID: b264b220-a8ed-45e9-9979-1228330a537e
+  sourceMeshRendererGUID: 48badc8c-9848-477f-b066-e2e6e5260f06
   guid: de1bb668-2f49-45a7-80b5-2ea87dd9e12e
   localOptions:
     RecalculateTangents: 0
