@@ -30,6 +30,7 @@ namespace StarterAssets
         private bool wasGravity;
         private Rigidbody thrownObject;
         private float gravityTimer;
+        private float grabCooldown;
 
         private Camera cam;
         private InputSystem_Actions input;
@@ -81,9 +82,12 @@ namespace StarterAssets
                     CrushRobot();
             }
 
+            if (grabCooldown > 0f)
+                grabCooldown -= Time.deltaTime;
+
             if (GetLMB())
             {
-                if (heldObject == null && stamina > 0f && !exhausted)
+                if (heldObject == null && stamina > 0f && !exhausted && grabCooldown <= 0f)
                     TryGrab();
             }
             else
@@ -222,6 +226,7 @@ namespace StarterAssets
 
             thrownObject.linearVelocity = cam.transform.forward * throwForce;
             gravityTimer = throwGravityDelay;
+            grabCooldown = 1.5f;
 
             if (grabLoopAudio != null && grabLoopAudio.isPlaying)
             {
