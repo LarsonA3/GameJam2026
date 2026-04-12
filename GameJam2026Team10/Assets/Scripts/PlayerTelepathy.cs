@@ -12,6 +12,7 @@ namespace StarterAssets
         public float throwForce = 10f;
         public float throwGravityDelay = 0.2f;
         public GameObject ballPrefab;
+        public AudioSource grabLoopAudio;
 
         [Header("Stamina")]
         public float maxStamina = 100f;
@@ -47,6 +48,11 @@ namespace StarterAssets
             stamina = maxStamina;
             if (staminaSlider != null)
                 staminaSlider.maxValue = maxStamina;
+            if (grabLoopAudio != null)
+            {
+                grabLoopAudio.loop = true;
+                grabLoopAudio.playOnAwake = false;
+            }
         }
 
         private void Update()
@@ -157,13 +163,18 @@ namespace StarterAssets
                     thrownObject = null;
                 }
 
-                heldObject       = rb;
+                heldObject = rb;
                 grabHoldDistance = Vector3.Distance(cam.transform.position, rb.position);
-                wasGravity       = rb.useGravity;
+                wasGravity = rb.useGravity;
 
                 if (!hit.collider.CompareTag("Robot"))
                 {
                     rb.useGravity = false;
+                }
+
+                if (grabLoopAudio != null && !grabLoopAudio.isPlaying)
+                {
+                    grabLoopAudio.Play();
                 }
 
                 playerInput.actions["Jump"].Disable();
@@ -185,6 +196,11 @@ namespace StarterAssets
             heldObject.useGravity = wasGravity;
             heldObject = null;
             playerInput.actions["Jump"].Enable();
+
+            if (grabLoopAudio != null && grabLoopAudio.isPlaying)
+            {
+                grabLoopAudio.Stop();
+            }
         }
 
         private void CrushRobot()
@@ -205,6 +221,11 @@ namespace StarterAssets
 
             thrownObject.linearVelocity = cam.transform.forward * throwForce;
             gravityTimer = throwGravityDelay;
+
+            if (grabLoopAudio != null && grabLoopAudio.isPlaying)
+            {
+                grabLoopAudio.Stop();
+            }
         }
 
         private bool GetLMB()

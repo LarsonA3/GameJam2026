@@ -52,6 +52,7 @@ public class TurretDetection : MonoBehaviour
         {
             if (damageTimer <= 0f)
             {
+                SoundManager.Play(SoundType.LaserShot);
                 Health playerHealth = Player.GetComponent<Health>();
                 if (playerHealth != null)
                 {

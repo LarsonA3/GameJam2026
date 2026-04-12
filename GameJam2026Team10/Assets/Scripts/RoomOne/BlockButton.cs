@@ -10,10 +10,8 @@ public class BlockButton : MonoBehaviour, IInteractable
     public void Interact()
     {
         if (Time.time < nextInteractTime) return;
-
+        SoundManager.Play(SoundType.ButtonPress);
         nextInteractTime = Time.time + cooldown;
-
-        this.GetComponent<AudioSource>()?.Play();
 
         print("player interacted w button");
         Instantiate(CubePrefab, transform.Find("SpawnLocation").transform.position, Quaternion.identity);

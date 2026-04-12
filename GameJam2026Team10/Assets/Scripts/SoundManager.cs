@@ -71,10 +71,9 @@ public class SoundManager : MonoBehaviour
 
         soundMap = new Dictionary<SoundType, SoundCollection>()
         {
-            { SoundType.Footsteps, new SoundCollection("") },
-            { SoundType.GrabBlock, new SoundCollection("") },
-            { SoundType.LaserShot, new SoundCollection("") },
-            { SoundType.ButtonPress, new SoundCollection("") },
+            { SoundType.Footsteps, new SoundCollection("footstep") },
+            { SoundType.LaserShot, new SoundCollection("laser") },
+            { SoundType.ButtonPress, new SoundCollection("button") },
         };
     }
 
@@ -95,7 +94,7 @@ public class SoundManager : MonoBehaviour
                 return;
             }
 
-            audioSrc.pitch = 1f;
+            audioSrc.pitch = pitch >= 0 ? pitch : Random.Range(0.75f, 1.25f);
             audioSrc.volume = Instance.mainVolume;
             audioSrc.PlayOneShot(clip);
         }
