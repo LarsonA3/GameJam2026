@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd067c9d68fb0d947b696022d39f63b9
+guid: 68f881f30360f9a44aba08745d6d9274
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -114,8 +114,8 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 12949
-  packageName: Yughues Free Metal Materials
-  packageVersion: 2.1
-  assetPath: Assets/YughuesFreeMetalMaterials/Preview/T_Checker.tga
-  uploadId: 748190
+  productId: 12951
+  packageName: Yughues Free Concrete Materials
+  packageVersion: 1.0
+  assetPath: Assets/YughuesFreeConcreteMaterials/Preview/T_Checker.tga
+  uploadId: 744117
