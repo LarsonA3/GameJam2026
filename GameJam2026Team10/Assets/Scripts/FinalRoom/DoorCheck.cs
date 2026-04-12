@@ -39,6 +39,8 @@ public class DoorCheck : MonoBehaviour
         {
             Debug.Log("Player entered door when guy is dead");
             SceneManager.LoadScene("YouWin");
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
         else if (other.CompareTag("Player") && !isGuyDead)
         {
