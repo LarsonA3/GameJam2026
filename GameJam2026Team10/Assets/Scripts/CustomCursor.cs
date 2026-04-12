@@ -29,7 +29,7 @@ public class CustomCursor : MonoBehaviour {
       range = 5f;
     var ray = Camera.main.ScreenPointToRay(transform.position);
     if (Physics.Raycast(ray, out RaycastHit hit, range)) {
-      if (hit.collider.CompareTag("PushableObject")) {
+      if (hit.collider.CompareTag("PushableObject") || hit.collider.CompareTag("Robot")) {
         img.sprite = sprHover;
         img.color = clrHover;
       }

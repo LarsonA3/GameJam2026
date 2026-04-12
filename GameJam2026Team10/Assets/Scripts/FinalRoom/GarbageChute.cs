@@ -11,6 +11,7 @@ public class GarbageChute : MonoBehaviour
             if (!guyLogged)
             {
                 print("guy fell into garbage chute");
+                DoorCheck.instance.SetGuyDead();
                 guyLogged = true;
             }
         }
