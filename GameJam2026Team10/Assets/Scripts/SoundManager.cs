@@ -77,7 +77,7 @@ public class SoundManager : MonoBehaviour
         };
     }
 
-    public static void Play(SoundType type, AudioSource audioSrc = null, float pitch = -1)
+    public static void Play(SoundType type, AudioSource audioSrc = null, float pitch = -1, float volume = 1)
     {
         if (Instance == null)
         {

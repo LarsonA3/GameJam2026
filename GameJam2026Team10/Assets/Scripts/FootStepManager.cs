@@ -26,7 +26,7 @@ namespace StarterAssets
 
                 if (stepTimer <= 0f)
                 {
-                    SoundManager.Play(SoundType.Footsteps);
+                    SoundManager.Play(SoundType.Footsteps, null, -1, 0.5f);
                     stepTimer = stepDelay;
                 }
             }
